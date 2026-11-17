@@ -18,7 +18,7 @@ const Heder = () => {
           feature
         </Link>
         <Link
-          href="/"
+          href="/technology"
           className="font-medium text-blue-600 hover:text-blue-800 pr-2"
         >
           Tech
