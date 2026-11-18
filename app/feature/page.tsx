@@ -18,7 +18,7 @@ const pages: Record<PageKey, ComponentType<SidebarProps>> = {
 };
 
 export default function Home() {
-  const [activePage, setActivePage] = useState<PageKey>("accountManage");
+  const [activePage, setActivePage] = useState<PageKey>("accountAuth");
   const ActivePage = pages[activePage];
   return <ActivePage activePage={activePage} onSelect={setActivePage} />;
 }

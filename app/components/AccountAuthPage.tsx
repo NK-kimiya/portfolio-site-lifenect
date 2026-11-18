@@ -163,7 +163,6 @@ export default function AccountAuthPage({
             <StepList title="申請の可否" steps={approve} />
             <StepList title="サインイン・サインアップ" steps={login} />
           </div>
-          <p className="mt-4 text-gray-600">ここにページの内容を配置します。</p>
         </main>
       </div>
     </div>

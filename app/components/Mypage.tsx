@@ -106,7 +106,6 @@ const Mypage = ({ activePage, onSelect }: SidebarProps) => {
             <StepList title="お気に入り機能" steps={favorite} />
             <StepList title="お気に入り機能" steps={deleteAccount} />
           </div>
-          <p className="mt-4 text-gray-600">ここにページの内容を配置します。</p>
         </main>
       </div>
     </div>
